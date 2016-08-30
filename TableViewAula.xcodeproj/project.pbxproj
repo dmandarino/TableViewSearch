@@ -8,20 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		5A6201351D74CFF300D272AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6201341D74CFF300D272AC /* AppDelegate.swift */; };
-		5A6201371D74CFF300D272AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6201361D74CFF300D272AC /* ViewController.swift */; };
+		5A6201371D74CFF300D272AC /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6201361D74CFF300D272AC /* ProductList.swift */; };
 		5A62013A1D74CFF300D272AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6201381D74CFF300D272AC /* Main.storyboard */; };
 		5A62013C1D74CFF300D272AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A62013B1D74CFF300D272AC /* Assets.xcassets */; };
 		5A62013F1D74CFF300D272AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A62013D1D74CFF300D272AC /* LaunchScreen.storyboard */; };
+		5A6201561D76229E00D272AC /* caneta.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A6201481D76229E00D272AC /* caneta.png */; };
+		5A6201581D76229E00D272AC /* caneta redonda.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A62014A1D76229E00D272AC /* caneta redonda.png */; };
+		5A6201591D76229E00D272AC /* caneta preta.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A62014B1D76229E00D272AC /* caneta preta.png */; };
+		5A62015A1D76229E00D272AC /* borracha.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A62014C1D76229E00D272AC /* borracha.png */; };
+		5A62015B1D76229E00D272AC /* borracha pequena.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A62014D1D76229E00D272AC /* borracha pequena.png */; };
+		5A62015C1D76229E00D272AC /* borracha branca.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A62014E1D76229E00D272AC /* borracha branca.png */; };
+		5A62015D1D76229E00D272AC /* borracha escolar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A62014F1D76229E00D272AC /* borracha escolar.png */; };
+		5A62015E1D76229E00D272AC /* marcador verde.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A6201501D76229E00D272AC /* marcador verde.png */; };
+		5A62015F1D76229E00D272AC /* marcador branco.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A6201511D76229E00D272AC /* marcador branco.png */; };
+		5A6201601D76229E00D272AC /* marcador preto.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A6201521D76229E00D272AC /* marcador preto.png */; };
+		5A6201611D76229E00D272AC /* lapis preto.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A6201531D76229E00D272AC /* lapis preto.png */; };
+		5A6201621D76229E00D272AC /* lapis.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A6201541D76229E00D272AC /* lapis.png */; };
+		5A6201631D76229E00D272AC /* lapis branco.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A6201551D76229E00D272AC /* lapis branco.png */; };
+		5A6201661D762F9300D272AC /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6201651D762F9300D272AC /* Product.swift */; };
+		5A6201681D76339000D272AC /* caneta rosa.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A6201671D76339000D272AC /* caneta rosa.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5A6201311D74CFF300D272AC /* TableViewAula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewAula.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A6201341D74CFF300D272AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5A6201361D74CFF300D272AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A6201361D74CFF300D272AC /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
 		5A6201391D74CFF300D272AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A62013B1D74CFF300D272AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A62013E1D74CFF300D272AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A6201401D74CFF300D272AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A6201481D76229E00D272AC /* caneta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = caneta.png; path = ../../../../../Downloads/caneta.png; sourceTree = "<group>"; };
+		5A62014A1D76229E00D272AC /* caneta redonda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "caneta redonda.png"; path = "../../../../../Downloads/caneta redonda.png"; sourceTree = "<group>"; };
+		5A62014B1D76229E00D272AC /* caneta preta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "caneta preta.png"; path = "../../../../../Downloads/caneta preta.png"; sourceTree = "<group>"; };
+		5A62014C1D76229E00D272AC /* borracha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = borracha.png; path = ../../../../../Downloads/borracha.png; sourceTree = "<group>"; };
+		5A62014D1D76229E00D272AC /* borracha pequena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "borracha pequena.png"; path = "../../../../../Downloads/borracha pequena.png"; sourceTree = "<group>"; };
+		5A62014E1D76229E00D272AC /* borracha branca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "borracha branca.png"; path = "../../../../../Downloads/borracha branca.png"; sourceTree = "<group>"; };
+		5A62014F1D76229E00D272AC /* borracha escolar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "borracha escolar.png"; path = "../../../../../Downloads/borracha escolar.png"; sourceTree = "<group>"; };
+		5A6201501D76229E00D272AC /* marcador verde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "marcador verde.png"; path = "../../../../../Downloads/marcador verde.png"; sourceTree = "<group>"; };
+		5A6201511D76229E00D272AC /* marcador branco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "marcador branco.png"; path = "../../../../../Downloads/marcador branco.png"; sourceTree = "<group>"; };
+		5A6201521D76229E00D272AC /* marcador preto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "marcador preto.png"; path = "../../../../../Downloads/marcador preto.png"; sourceTree = "<group>"; };
+		5A6201531D76229E00D272AC /* lapis preto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lapis preto.png"; path = "../../../../../Downloads/lapis preto.png"; sourceTree = "<group>"; };
+		5A6201541D76229E00D272AC /* lapis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lapis.png; path = ../../../../../Downloads/lapis.png; sourceTree = "<group>"; };
+		5A6201551D76229E00D272AC /* lapis branco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lapis branco.png"; path = "../../../../../Downloads/lapis branco.png"; sourceTree = "<group>"; };
+		5A6201651D762F9300D272AC /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		5A6201671D76339000D272AC /* caneta rosa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "caneta rosa.png"; path = "../../../../../Downloads/Downloaded/caneta rosa.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +85,36 @@
 			isa = PBXGroup;
 			children = (
 				5A6201341D74CFF300D272AC /* AppDelegate.swift */,
-				5A6201361D74CFF300D272AC /* ViewController.swift */,
+				5A6201361D74CFF300D272AC /* ProductList.swift */,
 				5A6201381D74CFF300D272AC /* Main.storyboard */,
+				5A6201651D762F9300D272AC /* Product.swift */,
 				5A62013B1D74CFF300D272AC /* Assets.xcassets */,
 				5A62013D1D74CFF300D272AC /* LaunchScreen.storyboard */,
 				5A6201401D74CFF300D272AC /* Info.plist */,
+				5A6201641D7622A500D272AC /* images */,
 			);
 			path = TableViewAula;
+			sourceTree = "<group>";
+		};
+		5A6201641D7622A500D272AC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5A6201481D76229E00D272AC /* caneta.png */,
+				5A62014A1D76229E00D272AC /* caneta redonda.png */,
+				5A6201671D76339000D272AC /* caneta rosa.png */,
+				5A62014B1D76229E00D272AC /* caneta preta.png */,
+				5A62014C1D76229E00D272AC /* borracha.png */,
+				5A62014D1D76229E00D272AC /* borracha pequena.png */,
+				5A62014E1D76229E00D272AC /* borracha branca.png */,
+				5A62014F1D76229E00D272AC /* borracha escolar.png */,
+				5A6201501D76229E00D272AC /* marcador verde.png */,
+				5A6201511D76229E00D272AC /* marcador branco.png */,
+				5A6201521D76229E00D272AC /* marcador preto.png */,
+				5A6201531D76229E00D272AC /* lapis preto.png */,
+				5A6201541D76229E00D272AC /* lapis.png */,
+				5A6201551D76229E00D272AC /* lapis branco.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +149,7 @@
 				TargetAttributes = {
 					5A6201301D74CFF300D272AC = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = N3GG8VLR9P;
 					};
 				};
 			};
@@ -123,7 +177,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A62013F1D74CFF300D272AC /* LaunchScreen.storyboard in Resources */,
+				5A6201591D76229E00D272AC /* caneta preta.png in Resources */,
+				5A62015B1D76229E00D272AC /* borracha pequena.png in Resources */,
+				5A6201631D76229E00D272AC /* lapis branco.png in Resources */,
+				5A6201561D76229E00D272AC /* caneta.png in Resources */,
+				5A62015A1D76229E00D272AC /* borracha.png in Resources */,
+				5A62015C1D76229E00D272AC /* borracha branca.png in Resources */,
+				5A62015F1D76229E00D272AC /* marcador branco.png in Resources */,
+				5A62015D1D76229E00D272AC /* borracha escolar.png in Resources */,
+				5A6201611D76229E00D272AC /* lapis preto.png in Resources */,
+				5A6201601D76229E00D272AC /* marcador preto.png in Resources */,
+				5A6201581D76229E00D272AC /* caneta redonda.png in Resources */,
+				5A6201681D76339000D272AC /* caneta rosa.png in Resources */,
 				5A62013C1D74CFF300D272AC /* Assets.xcassets in Resources */,
+				5A6201621D76229E00D272AC /* lapis.png in Resources */,
+				5A62015E1D76229E00D272AC /* marcador verde.png in Resources */,
 				5A62013A1D74CFF300D272AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +203,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A6201371D74CFF300D272AC /* ViewController.swift in Sources */,
+				5A6201371D74CFF300D272AC /* ProductList.swift in Sources */,
 				5A6201351D74CFF300D272AC /* AppDelegate.swift in Sources */,
+				5A6201661D762F9300D272AC /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +318,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TableViewAula/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = douglas.TableViewAula;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -260,10 +332,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TableViewAula/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = douglas.TableViewAula;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
