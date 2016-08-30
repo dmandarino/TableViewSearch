@@ -19,8 +19,7 @@ class ProductViewController: UIViewController {
         
         super.viewDidLoad()
     
-        self.name.text = productName
-        self.image.image = UIImage(named: productName!)
+        self.name.text = productName         self.image.image = UIImage(named: productName!)
     }
 
 }
